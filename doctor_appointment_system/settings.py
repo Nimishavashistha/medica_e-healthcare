@@ -58,6 +58,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'doctor_appointment_system.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
