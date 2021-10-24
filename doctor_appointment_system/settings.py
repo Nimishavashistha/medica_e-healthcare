@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'yy4&i60lnm&a)#t9y+2=u)=fs(r5r_if6mn7d
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["medica-sn.herokuapp.com", "127.0.0.1"]
 
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+WHITENOISE_USE_FINDERS = True
 ROOT_URLCONF = 'doctor_appointment_system.urls'
 
 
