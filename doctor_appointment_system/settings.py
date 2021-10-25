@@ -55,7 +55,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-WHITENOISE_USE_FINDERS = True
 ROOT_URLCONF = 'doctor_appointment_system.urls'
 
 
@@ -145,4 +144,4 @@ MEDIA_URL = "/media/"
 
 
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
